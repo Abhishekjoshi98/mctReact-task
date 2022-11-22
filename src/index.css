@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-nav{
+  height: 8vh;
+  border-bottom: 0.5px solid #dfe1e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.sub-nav{
+  width: 80vw;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 10px;
+}
+.op-hover:hover{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; ;
+}
+.op-1,.op-2,.op-3,.op-4{
+  padding: 0.5rem;
+  width: 24%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.text-area{
+  height: 89.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #dfe1e6;
+}
+.text-area-cont{
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  padding: 1rem;
+  overflow: scroll;
+}
